@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Tahoma', sans-serif;
+}
+
+.main-part {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/4.jpg');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+h1 {
+	color: white;
+}
+
+.main-nav {
+	list-style: none;
+	float: right;
+	margin-top: 60px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.main-nav li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 90%;
+	font-size: 25px;
+
+}
+
+.main-nav li a:hover {
+	color: #7FFF00;
+	border-bottom: 2px solid #7FFF00;
+	transition: all 0.25s ease-in;
+	padding: 15px 0;
+}
+
+.logo img {
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+
+.button {
+	margin-top: 25px;
+}
+
+.btn {
+	border:1px solid white;
+	padding: 10px 30px; 
+	color: white;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-right: 20px;
+}
+
+.btn-half:hover {
+	background-color: #7FFF00;
+	color: white;	
+	transition: all 0.25s ease-in;
+}
+
+.btn-full:hover {
+	background-color: #7FFF00;
+	color: white;
+	transition: all 0.25s ease-in;
+}
+

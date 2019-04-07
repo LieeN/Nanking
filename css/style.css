@@ -32,7 +32,7 @@ h1 {
 }
 
 .main-nav {
-	list-style: none;
+	list-style: none;		
 	float: right;
 	margin-top: 60px;
 }
@@ -40,6 +40,7 @@ h1 {
 .main-nav li {
 	display: inline-block;
 	margin-left: 50px;
+
 }
 
 .main-nav li a {
@@ -89,3 +90,31 @@ h1 {
 	transition: all 0.25s ease-in;
 }
 
+.meny {
+	color: black;
+}
+
+.container-fluid {
+	width: 1140px;
+	padding: 0;
+	margin-top: 20px;
+	color: black;
+}
+
+
+
+.title h3 {	
+	font-weight: bolder;
+	font-size: 40px;
+	color: black;
+}
+
+.col-sm-4 h4 {
+	padding-bottom: 5px; 
+	font-weight: bold;
+}
+
+
+.food-name { 
+	font-weight: bold;
+}

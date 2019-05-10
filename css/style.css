@@ -31,6 +31,15 @@ h1 {
 	color: white;
 }
 
+/* Navigation bar */
+
+.logo img {
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+
+
 .main-nav {
 	list-style: none;		
 	float: right;
@@ -59,11 +68,21 @@ h1 {
 	padding: 15px 0;
 }
 
-.logo img {
-	height: 100px;
-	float: left;
-	margin-top: 30px;
+.nav-toggle {
+	color: #ffffff;
+	float: right;
+	line-height: 50px;
+	font-size: 25px;
+	cursor: pointer;
+	margin-top: 60px;
+	display: none;
 }
+
+header nav.active{
+	left: 0;
+}
+
+/* Main part of page */ 
 
 .button {
 	margin-top: 25px;
@@ -90,23 +109,32 @@ h1 {
 	transition: all 0.25s ease-in;
 }
 
+/* Meny */
+
 .meny {
 	color: black;
+	width: 70%;
+
+	margin-left: 15%;
+}
+
+.meny-list {
+	padding-left: 17px;
 }
 
 .container-fluid {
 	width: 1140px;
 	padding: 0;
-	margin-top: 20px;
-	color: black;
+	margin-top: 30px;
+	color: black;	
 }
-
-
 
 .title h3 {	
 	font-weight: bolder;
 	font-size: 40px;
 	color: black;
+	margin-top: 40px;
+	margin-bottom: 10px;
 }
 
 .col-sm-4 h4 {
@@ -114,7 +142,23 @@ h1 {
 	font-weight: bold;
 }
 
+@media (max-width: 768px) {
+	header {
+		padding: 0 20px;
+	}
+	.nav-toggle {
+		display: block;
 
-.food-name { 
-	font-weight: bold;
+	}
+	.main-nav {
+		display: none;
+	}
+	ul {
+		width: 100%;
+		display: none;
+	}
+	ul li {
+		display: block;
+		text-align: center;
+	}
 }
